@@ -1,0 +1,19 @@
+{
+  "name": "RTracker",
+  "version": "0.0.0",
+  "description": "Real time retweet tracker",
+  "main": "app.js",
+  "author": {
+    "name": "Batuhan KATIRCI",
+    "email": "katircib@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "config": "^1.12.0",
+    "express": "^4.12.3",
+    "mysql": "^2.6.2",
+    "q": "^1.2.0",
+    "socket.io": "^1.3.5",
+    "twit": "^1.1.20"
+  }
+}

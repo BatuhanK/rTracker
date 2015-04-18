@@ -1,0 +1,52 @@
+<script src="https://cdn.socket.io/socket.io-1.3.4.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+<script>
+
+var getAllUsers = function(callback){
+	$.ajax({
+		url: "http://localhost:5000/api/users", // Bu url'i vereceğim.
+		jsonp: "callback",
+		dataType: "jsonp",
+		success: function( response ) {
+			callback(null,response);
+		},
+		error: function(err){
+			callback(err,null);
+		}
+	});
+}
+
+
+getAllUsers(function(err,data){
+	if(err){
+		console.log(err)
+	} else {
+		// data.users ile eski rt yapmıs kisileri alıyoruz [ id desc ]
+		$.each(data.users,function(i,user){
+			console.log(user); // user object artık burada
+		})
+	}
+})
+
+
+var socket = io.connect('http://localhost:3000');
+socket.on('new_retweet', function (tweetObj) {
+	
+	console.log(tweetObj);
+
+	// tweetObj nesnesi Twitter'dan direkt olarak gelen datayı içeriyor
+
+	/*
+		Bu datayla ilgili bazı bilgiler
+
+		tweetObj.user -> RT yapan kullanıcının tüm profil detayları
+		tweetObj.retweeted_status -> Bizim tweetimizin ( RT'leri izlenen tweet ) en son detayları | rt sayısı - fav sayısı vs. vs.
+		
+
+	*/
+
+});
+
+
+</script>
