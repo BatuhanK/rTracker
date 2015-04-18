@@ -1,16 +1,17 @@
 {
     "twitterApi": {
-        "consumer_key": "66oLAzI4YhdicEdktWmMMEgpY",
-        "consumer_secret": "2szQvKn4feYQJYfqKEjBSRXY1jPf5SqIyrQRqCdNUzruXjwrS0",
-        "access_token": "2649240325-aTlB98GM7bLmYbHkY2a2Isvb5SvkUHEf5MWZlHC",
-        "access_token_secret": "kCdWhOQ9jftGJXyqwCbabgdmPjoGrWrNBOOk12zwDgaD6"
+        "consumer_key": "TWITTER_CONSUMER_KEY",
+        "consumer_secret": "TWITTER_CONSUMER_SECRET",
+        "access_token": "TWITTER_ACCESS_TOKEN",
+        "access_token_secret": "TWITTER_ACCESS_TOKEN_SECRET"
     },
     "mysql" : {
 			"connectionLimit" : 300,
 			"host" : "localhost",
-			"user" : "root",
-			"password" : "",
-			"database" : "adem_rt"
+            "port" : "3306",
+			"user" : "MYSQL_USERNAME",
+			"password" : "MYSQL_PASSWORD",
+			"database" : "MYSQL_DATABASE"
 	},
     "socketPort" : 3000,
     "httpPort" : 5000,
