@@ -8,9 +8,9 @@ Daha sonra
 
 ```sh
 $ npm install
-```
-
-```sh
 $ npm start
 
 ```
+
+
+sample.html 'de örnek front-end kullanım mevcut ( sadece console.log atıyor ).
