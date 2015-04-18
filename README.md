@@ -2,7 +2,7 @@
 
 ![önce](http://i.imgur.com/kSRxYb0.png)
 ![sonra](http://i.imgur.com/UBQC8if.png)
-
+(*evet çizerken elim titredi*)
 
 rTracker etkinlik vb. sayfalarda canlı Retweet gösterimi için kullanılabilecek bir araçtır. Yalnızca back-end kodları mevcuttur.
 
