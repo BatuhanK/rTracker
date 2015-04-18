@@ -1,6 +1,10 @@
 # rTracker
 
-rTracker etkinlik vb. sayfalarda canlı Retweet gösterimi için kullanılabilecek bir araçtır. Yalnızca back-end kodları mevcuttur, front-end için örnek bir kullanım eklenmiştir ( sample.html -> sadece console.log )
+![Alt text](http://i.imgur.com/kSRxYb0.png)
+![Alt text](http://i.imgur.com/UBQC8if.png)
+
+
+rTracker etkinlik vb. sayfalarda canlı Retweet gösterimi için kullanılabilecek bir araçtır. Yalnızca back-end kodları mevcuttur, front-end için örnek bir kullanım eklenmiştir. (sample.html -> sadece console.log | *portları düzenleyin lütfen*)
 
 ## Gereksinimler
 
