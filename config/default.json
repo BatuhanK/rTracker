@@ -13,5 +13,6 @@
 			"database" : "adem_rt"
 	},
     "socketPort" : 3000,
-    "httpPort" : 5000
+    "httpPort" : 5000,
+    "tweetId" : "YOUR_TWEET_ID"
 }

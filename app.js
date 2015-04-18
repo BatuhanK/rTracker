@@ -10,7 +10,8 @@ var httpHelper = require('./helpers/httpHelper.js');
 
 // Application login here
 
-var streamHelper = require('./helpers/streamHelper.js')("589464954618703872");
+var tweetId = require('config').get('tweetId');
+var streamHelper = require('./helpers/streamHelper.js')(tweetId);
 streamHelper.rtStream(function (err, tweetObj) {
     if (err) {
         console.log(err);
